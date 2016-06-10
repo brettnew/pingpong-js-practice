@@ -13,13 +13,13 @@ This website will allow the user to input any number. The website will then outp
 
 - Program should allow user to enter a number, and then output all numbers from 1 to this number as an unordered list.
   - Example Input: "2"
-  - Example Output: "* 1 * 2"
+  - Example Output: "1, 2"
 - Program should now output all numbers that are divisible by 3 as "ping" instead.
   - Example Input: "3"
-  - Example Output: "* 1 * 2 * ping"
+  - Example Output: "1, 2, ping"
 - Program should now output all numbers that are divisible by 5 as "pong" instead.
   - Example Input: "5"
-  - Example Output: "* 1 * 2 * ping * 4 * pong"
+  - Example Output: "1, 2, ping, 4, pong"
 - Program should now output all numbers that are divisible by both 5 and 3 as "pingpong"
   - Example Input: "15"
   - Example Output: "1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong"
