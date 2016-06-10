@@ -10,7 +10,9 @@ This website will allow the user to input any number. The website will then outp
 <!-- Put link to live site -->
 
 ##Specifications
-
+- If user attempts to enter letters, program should have alert come up that asks the user to enter a number.
+  - Example Input: "bob"
+  - Example Output: "Please enter a valid integer!"
 - Program should allow user to enter a number, and then output all numbers from 1 to this number as an unordered list.
   - Example Input: "2"
   - Example Output: "1, 2"

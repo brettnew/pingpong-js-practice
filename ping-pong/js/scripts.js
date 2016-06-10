@@ -1,6 +1,13 @@
-
-
-
+//
+//
+// if (!numberInput) {
+//   alert ("Please enter a valid integer!");
+// }
+// else if {
+//   for (var i = 0; i < numberInput; i ++){
+//     var numberDisplay = i;
+//   }
+// }
 
 
 
@@ -11,10 +18,21 @@
 
 // User-Interface Logic
 $(document).ready(function(){
-  $("#blank-number form").submit(function(event){
+  $("#button-submit").click(function(event){
     event.preventDefault();
-    var numberInput = $("input#number").val();
+    var numberInput = parseInt($("input#number").val());
 
-    $("ul").append("<li>" +   +"</li>")
+debugger;
+    if (!numberInput) {
+      alert ("Please enter a valid integer!");
+    }
+    else {
+      for (var i = 1; i <= numberInput; i ++){
+        var numberDisplay = i;
+
+        $("ul").append("<li>" + numberDisplay  +"</li>")
+      }
+    }
+
   });
 });
