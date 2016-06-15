@@ -7,7 +7,7 @@
 ## Description
 
 This website will allow the user to input any number. The website will then output an unordered list of numbers from 1 to the user's number. All numbers divisible by 3 will be replaced by "ping"; all numbers divisible by 5 will be replaced by "pong"; all numbers divisible by 3 and 5 will be replaced by "pingpong".
-<!-- Put link to live site -->
+See it here at: https://github.com/brettnew/ping-pong/tree/master/ping-pong
 
 ##Specifications
 - Program should allow user to enter a number, and then output all numbers from 1 to this number as an unordered list.
