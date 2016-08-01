@@ -1,3 +1,5 @@
+var Calculator = require('./../js/pingpong.js').calculatorModule;
+
 $(document).ready(function(){
   $('#ping-pong-form').submit(function(event){
     event.preventDefault();
@@ -7,5 +9,9 @@ $(document).ready(function(){
     output.forEach(function(element){
       $('#solution').append("<li>" + element + "</li>");
     });
+  });
+
+  $("#target").click(function(){
+    alert("Target clicked.");
   });
 });
